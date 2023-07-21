@@ -75,19 +75,19 @@ const Footer = () => {
               <span className=" ">
                 <MdOutlinePhoneInTalk className="text-3xl bg-secondary text-primary p-2 rounded-full mr-3" />
               </span>
-              <h1 className="font-semibold">0800 849 8585</h1>
+              <h1 className="font-semibold">+8801558085609</h1>
             </div>
             <div className="mt-5 flex">
               <span className=" ">
                 <MdOutlineMail className="text-3xl bg-secondary text-primary p-2 rounded-full mr-3" />
               </span>
-              <h1 className="font-semibold">weero@furniture.com</h1>
+              <h1 className="font-semibold">Wfurniture@gmail.com</h1>
             </div>
           </div>
         </div>
         <hr className="border-t-2 border-white mt-10" />
         <h1 className="font-semibold text-center mt-3 text-secondary">
-          © 2023 Weero Furniture Group Holdings Ltd. All Rights Reserved.
+          © 2023 W Furniture Group Holdings Ltd. All Rights Reserved.
         </h1>
       </div>
     </div>
