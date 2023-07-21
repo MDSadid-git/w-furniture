@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap"); */
+
+@keyframes dropdown {
+  0% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.dropdown-menu {
+  animation-name: dropdown;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+.horizontal-slider {
+  background-color: #f7941d;
+  width: 100%;
+  height: 10px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.example-thumb-1 {
+  background-color: #efe9e5;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 100%;
+  text-align: center;
+  top: -7px;
+  color: #f7941d;
+  padding: 2px;
+  border: none;
+}
+.example-thumb-0 {
+  top: -7px;
+  background-color: #efe9e5;
+  width: 30px;
+  color: #f7941d;
+  cursor: pointer;
+  padding: 2px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.example-thumb-0:focus {
+  outline: 3px solid #f7941d;
+}
+.example-thumb-1:focus {
+  outline: 3px solid #f7941d;
+}
+
+.react-slick:focus {
+  outline: none !important;
+}
+
+
+
+@keyframes zoom-out {
+  0% {
+    transform: scale(1.2);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.html {
+  scroll-behavior: smooth;
+}
+
+.animate-zoom-out1 {
+  animation-name: zoom-out;
+  animation-duration: 10s; /* Adjust the duration as needed */
+  animation-timing-function: linear; /* Adjust the timing function as needed */
+  animation-iteration-count: infinite;
+}
+.animate-zoom-out2 {
+  animation-name: zoom-out;
+  animation-duration: 3s; /* Adjust the duration as needed */
+  animation-timing-function: linear; /* Adjust the timing function as needed */
+  /* animation-iteration-count: infinite; */
+}
+.animate-zoom-out3 {
+  animation-name: zoom-out;
+  animation-duration: 3s; /* Adjust the duration as needed */
+  animation-timing-function: linear; /* Adjust the timing function as needed */
+  /* animation-iteration-count: infinite; */
+}
+
+/* test slide in animation */
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.text-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-in-text {
+  animation: slideIn 1s forwards;
+}
+
+/* vendor text animation */
+@keyframes TextSlideIn {
+  from {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.vendorSlide {
+  animation: TextSlideIn 2s forwards;
+}
+
+/* vendor Icon animation */
+@keyframes IconSlideIn {
+  from {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.vendorIconSlide {
+  animation: IconSlideIn 2s forwards;
+}

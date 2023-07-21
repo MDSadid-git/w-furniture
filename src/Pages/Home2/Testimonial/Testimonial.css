@@ -1,0 +1,122 @@
+
+ .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 10px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    text-align: center;
+    opacity: .25;
+    color: #f9741d;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li button:after {
+    font-family: 'slick';
+    font-size: 10px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: .25;
+    color: #f9741d;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 300ms !important;
+} 
+
+ .slick-dots .slick-active button:before {
+    font-family: 'slick';
+    font-size: 50px !important;
+    line-height: 20px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    content: '-' !important;
+    text-align: center;
+    opacity: .25;
+    color: #f9741d !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 700ms !important;
+}
+.slick-dots .slick-active button:after {
+    font-family: 'slick';
+    font-size: 50px !important;
+    line-height: 20px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    content: '-' !important;
+    text-align: center;
+    opacity: .25;
+    color: #f9741d !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 700ms !important;
+} 
+
+.testmonial .slick-dots .slick-active button:before {
+    font-family: 'slick';
+    font-size: 50px !important;
+    line-height: 20px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    content: '-' !important;
+    text-align: center;
+    opacity: .25;
+    color: #000000 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 700ms !important;
+}
+
+.testmonial .slick-dots .slick-active button:after {
+    font-family: 'slick';
+    font-size: 50px !important;
+    line-height: 20px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    content: '-' !important;
+    text-align: center;
+    opacity: .25;
+    color: #000000 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 700ms !important;
+} 
+
+.testmonial .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 10px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    text-align: center;
+    opacity: .25;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.testmonial .slick-dots li button:after {
+    font-family: 'slick';
+    font-size: 10px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: .25;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 300ms !important;
+} 
