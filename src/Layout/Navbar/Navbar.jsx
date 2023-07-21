@@ -137,13 +137,13 @@ const Navbar = () => {
             <li className="mr-5 font-semibold  hidden lg:block">
               <div className="flex items-center hover:bg-white hover:text-primary px-1 duration-300 rounded-md">
                 <BiPhoneCall className="mr-1" />
-                <a href="callto:+8801765896545">+8801765896545</a>
+                <a href="callto:+8801558085609">+8801558085609</a>
               </div>
             </li>
             <li className="mr-5 font-semibold hidden lg:block">
               <div className="flex items-center hover:bg-white hover:text-primary px-1 duration-300 rounded-md">
                 <MdOutlineMail className="mr-1" />
-                <a href="mailto:weero@furniture.com">weero@furniture.com</a>
+                <a href="mailto:Wfurniture@gmail.com">Wfurniture@gmail.com</a>
               </div>
             </li>
             <Link to="/wishlist">
@@ -178,8 +178,8 @@ const Navbar = () => {
             <div className="flex justify-center items-center">
               <Link to="/">
                 <h1 className="text-lg font-semibold flex items-center">
-                  <img className="w-12 mr-1" src={logo} alt="" />
-                  WEERO <span className="text-primary">FURNITURE</span>
+                  <img className="w-12 mr-1" src={logo} alt="" />W{" "}
+                  <span className="text-primary">FURNITURE</span>
                 </h1>
               </Link>
             </div>
@@ -285,8 +285,8 @@ const Navbar = () => {
                                       creative spirit.
                                     </p>
                                     <button className="bg-primary hover:bg-gray-800 duration-300 px-3 py-2 rounded-md text-white">
-                                      <a href="tel:+880171095593">
-                                        Call Us: +880 1710 095593
+                                      <a href="tel:+8801558085609">
+                                        Call Us: +8801558085609
                                       </a>
                                     </button>
                                   </div>
