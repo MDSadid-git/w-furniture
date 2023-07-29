@@ -1,14 +1,12 @@
 import React from "react";
-import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
 import Slider from "react-slick";
 import Card from "../Card/Card";
-import { BiRightArrow } from "react-icons/bi";
-import bed1 from '../../assets/ProductImage/bed1.jpg'
-import sofa1 from '../../assets/ProductImage/sofa1.jpg'
-import sofa4 from '../../assets/ProductImage/sofa4.jpg'
-import dining1 from '../../assets/ProductImage/dining1.jpg'
-import light1 from '../../assets/ProductImage/light1.jpg'
+import bed1 from "../../assets/ProductImage/bed1.jpg";
+import sofa1 from "../../assets/ProductImage/sofa1.jpg";
+import sofa4 from "../../assets/ProductImage/sofa4.jpg";
+import dining1 from "../../assets/ProductImage/dining1.jpg";
+import light1 from "../../assets/ProductImage/light1.jpg";
 
 const ProductSlider = () => {
   const settings = {
@@ -69,7 +67,7 @@ const ProductSlider = () => {
   return (
     <>
       <div className="relative mt-4 lg:mt-10 p-3">
-        <h1 className="text-3xl font-semibold text-primary mt-10">Product </h1>
+        <h1 className="text-4xl font-semibold text-primary mt-10">Product </h1>
         <button onClick={() => slider?.current?.slickNext()}>
           <IoIosArrowDropright className="  absolute top-[300px] right-[0] lg:right-0  z-10 h-[50px] w-[50px] rounded-full bg-[#f2f3f4] text-sm  text-[#7e7e7e] hover:bg-primary hover:text-white transition ease-in-out delay-150  " />
         </button>
