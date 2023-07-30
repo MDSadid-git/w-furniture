@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import table from '../../assets/ProductImage/table.png'
+import table from "../../assets/ProductImage/table.png";
 
 const LimitedOffer = () => {
   const [timeOver, setTimeOver] = useState(false);
@@ -39,7 +39,7 @@ const LimitedOffer = () => {
 
   return (
     <div className=" my-10">
-      <h1 className="text-primary text-3xl font-semibold my-5">
+      <h1 className="text-primary text-4xl font-semibold my-5">
         Limited Offer
       </h1>
       {timeOver ? (
@@ -95,10 +95,7 @@ const LimitedOffer = () => {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <img
-              src={table}
-              alt=""
-            />
+            <img src={table} alt="" />
           </div>
         </div>
       )}
