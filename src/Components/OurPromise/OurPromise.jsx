@@ -6,7 +6,7 @@ import { GiStarGate } from "react-icons/gi";
 const OurPromise = () => {
   return (
     <div className="my-20 px-2">
-      <h1 className="text-3xl font-semibold text-primary my-10">Our Promise</h1>
+      <h1 className="text-4xl font-semibold text-primary my-10">Our Promise</h1>
       <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 max-w-screen-xl mx-auto">
         <div className="bg-secondary p-3 rounded-md group hover:bg-primary duration-500 cursor-pointer md:hover:-translate-y-8">
           <span className="text-7xl my-3 text-gray-800 group-hover:text-secondary">

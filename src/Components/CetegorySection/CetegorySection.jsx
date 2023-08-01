@@ -57,7 +57,7 @@ const CetegorySection = () => {
         <li
           className={`${
             living && "border-b-4 border-primary"
-          } font-semibold md:text-l text-sm text-primary cursor-pointer`}
+          } font-semibold md:text-lg text-sm text-primary cursor-pointer`}
           onClick={handleLiving}
         >
           LIVING ROOM
@@ -65,7 +65,7 @@ const CetegorySection = () => {
         <li
           className={`${
             bed && "border-b-4 border-primary"
-          } font-semibold md:text-l text-sm text-primary cursor-pointer ml-10`}
+          } font-semibold md:text-lg text-sm text-primary cursor-pointer ml-10`}
           onClick={handleBed}
         >
           BED ROOM
@@ -73,7 +73,7 @@ const CetegorySection = () => {
         <li
           className={`${
             dining && "border-b-4 border-primary"
-          } font-semibold md:text-l text-sm text-primary cursor-pointer ml-10`}
+          } font-semibold md:text-lg text-sm text-primary cursor-pointer ml-10`}
           onClick={handleDining}
         >
           DINING ROOM
@@ -81,7 +81,7 @@ const CetegorySection = () => {
         <li
           className={`${
             light && "border-b-4 border-primary"
-          } font-semibold md:text-l text-sm text-primary cursor-pointer ml-10`}
+          } font-semibold md:text-lg text-sm text-primary cursor-pointer ml-10`}
           onClick={handleLight}
         >
           LIGHT

@@ -1,6 +1,4 @@
 // import React from 'react';
-
-import Marquee from "react-fast-marquee";
 import Banner2 from "./Banner/Banner2";
 import GetOrganized from "./GetOrganized/GetOrganized";
 import Category from "./Category/Category";
