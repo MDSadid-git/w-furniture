@@ -11,13 +11,6 @@ import LimitedOffer from "../../Components/LimitedOffer/LimitedOffer";
 const Home2 = () => {
   return (
     <div>
-      {/* <Marquee className="">
-        <p className="py-2 font-semibold text-primary text-lg">
-          Exclusive limited-time offer: Upgrade your living space with our
-          stylish and versatile furniture collection, designed to enhance
-          comfort and elevate your home decor.
-        </p>
-      </Marquee> */}
       <div className="space-y-24">
         <Banner2 />
         <GetOrganized />

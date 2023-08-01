@@ -1,14 +1,14 @@
-import organize1 from '../../../assets/ProductImage/organize1.jpg'
-import organize2 from '../../../assets/ProductImage/organize2.jpg'
-import bed3 from '../../../assets/ProductImage/bed3.jpg'
+import organize1 from "../../../assets/ProductImage/organize1.jpg";
+import organize2 from "../../../assets/ProductImage/organize2.jpg";
+import bed3 from "../../../assets/ProductImage/bed3.jpg";
 const GetOrganized = () => {
   return (
     <div className="container mx-auto px-3">
       <div className="text-center max-w-screen-md mx-auto space-y-7 text-gray-800">
-        <h1 className="font-sans italic text-4xl font-semibold text-primary">
+        <h1 className="font-sans italic md:text-5xl text-3xl font-semibold text-primary">
           Get Organized Home
         </h1>
-        <p className="font-semibold text-xl">
+        <p className="font-semibold text-lg mb-10">
           Designed with the modern family in mind, designer Weeoro Furniture
           considered every aspect of the Patch table to ensure maximum
           functionality.
