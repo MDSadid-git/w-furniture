@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           <div className="mx-auto">
             <h1 className="text-2xl font-semibold mt-5 text-secondary">
-              Weero Furniture
+              W Furniture
             </h1>
             <p className="text-white mt-5 font-semibold">
               Weero Furniture started life as a business lines and calls
