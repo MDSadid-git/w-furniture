@@ -10,7 +10,7 @@ import dining4 from "../../assets/ProductImage/dining4.jpg";
 const TopSale = () => {
   return (
     <div>
-      <h1 className="text-4xl font-semibold text-primary my-10">
+      <h1 className="md:text-5xl text-3xl font-semibold text-primary my-10">
         Top Sale Product
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
