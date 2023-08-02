@@ -67,7 +67,9 @@ const ProductSlider = () => {
   return (
     <>
       <div className="relative mt-4 lg:mt-10 p-3">
-        <h1 className="text-4xl font-semibold text-primary mt-10">Product </h1>
+        <h1 className="md:text-5xl text-3xl font-semibold text-primary mt-10">
+          Product{" "}
+        </h1>
         <button onClick={() => slider?.current?.slickNext()}>
           <IoIosArrowDropright className="  absolute top-[300px] right-[0] lg:right-0  z-10 h-[50px] w-[50px] rounded-full bg-[#f2f3f4] text-sm  text-[#7e7e7e] hover:bg-primary hover:text-white transition ease-in-out delay-150  " />
         </button>
