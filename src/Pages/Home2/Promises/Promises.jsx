@@ -6,8 +6,8 @@ import { GiStarGate } from "react-icons/gi";
 const Promises = () => {
   return (
     <div>
-      <div className="text-center max-w-screen-md mx-auto space-y-7 text-gray-800">
-        <h1 className="font-sans italic text-4xl font-semibold text-primary">
+      <div className="text-center max-w-screen-md mx-auto space-y-7 mb-10 text-gray-800">
+        <h1 className="font-sans italic md:text-5xl text-3xl mb-7 font-semibold text-primary">
           Our Promises
         </h1>
       </div>
