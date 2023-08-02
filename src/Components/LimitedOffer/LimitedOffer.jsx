@@ -39,11 +39,11 @@ const LimitedOffer = () => {
 
   return (
     <div className=" my-10">
-      <h1 className="text-primary text-4xl font-semibold my-5">
+      <h1 className="text-primary md:text-5xl text-3xl font-semibold my-5">
         Limited Offer
       </h1>
       {timeOver ? (
-        <h1 className="text-3xl font-semibold my-5 text-gray-800">
+        <h1 className="md:text-3xl text-2xl font-semibold my-5 text-gray-800">
           This week lemited offer finished
         </h1>
       ) : (
